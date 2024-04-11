@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    width: 336px;
+    min-height: 236px;
+    margin: auto;
+    margin-top: 232px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.yellow-head {
+    height: 28px;
+    background-color: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30.47px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.list-sort-type-button {
+    width: 25px;
+    height: 15px;
+    margin-left: 281px;
+    margin-top: 16px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    background-image: url("/Assets/Icons/List-Sort-Type-Icon-Increase-Unhover.svg");
+}
+
+.list-sort-type-button:hover {
+    background-image: url("/Assets/Icons/List-Sort-Type-Icon-Increase-Hover.svg");
+}
+
+.input-container {
+    margin: 11px 22px 0px 28px;
+    min-height: 40px;
+    width: 286px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: block;
+}
+
+.input-bar-container {
+    width: 260px;
+    height: 40px;
+    display: flex;
+}
+
+.input-bar {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    margin: 0px 5px 0px 0px;
+    font-size: 14px;
+}
+
+.input-bar-delete-button {
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.input-bar-delete {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-image: url("/Assets/Icons/Input-Bar-Delete-Icon-Unhover.svg");
+    border-radius: 50%;
+}
+
+.input-bar-delete:hover {
+    background-image: url("/Assets/Icons/Input-Bar-Delete-Icon-Hover.svg");
+}
+
+.add-task {
+    display: flex;
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    border-radius: 71px;
+    margin: 0px 94px 19px 92px;
+}
+
+.add-task-button {
+    width: 42px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: #9953F1;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.add-task p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 13px;
+    margin-left: 11px;
+    line-height: 16.41px;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.list-element-container {
+    display: flex;
+    max-width: 260px;
+    min-height: 40px;
+}
+
+.list-element-text {
+    width: 205px;
+    min-width: 205px;
+    margin-right: 5px;
+    margin-top: 11px;
+    word-wrap: break-word;
+}
+
+.list-element-delete-button {
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.list-element-delete {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
