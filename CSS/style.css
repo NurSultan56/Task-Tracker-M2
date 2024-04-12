@@ -123,6 +123,11 @@ body {
     margin: 0px 94px 19px 92px;
 }
 
+.add-task:hover {
+    background-color: #9953F1;
+    ;
+}
+
 .add-task-button {
     width: 42px;
     height: 42px;
@@ -133,6 +138,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
+}
+
+.add-task-button:hover {
+    background-color: #AA68FE;
+    ;
 }
 
 .add-task p {
