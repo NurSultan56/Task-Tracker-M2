@@ -33,7 +33,7 @@ body {
     margin-top: 13px;
 }
 
-.list-sort-type-button {
+.list-sort-type-button-increase{
     width: 25px;
     height: 15px;
     margin-left: 281px;
@@ -44,8 +44,23 @@ body {
     background-image: url("/Assets/Icons/List-Sort-Type-Icon-Increase-Unhover.svg");
 }
 
-.list-sort-type-button:hover {
+.list-sort-type-button-increase:hover {
     background-image: url("/Assets/Icons/List-Sort-Type-Icon-Increase-Hover.svg");
+}
+
+.list-sort-type-button-decrease{
+    width: 25px;
+    height: 15px;
+    margin-left: 281px;
+    margin-top: 16px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    background-image: url("/Assets/Icons/List-Sort-Type-Icon-Decrease-Unhover.svg");
+}
+
+.list-sort-type-button-decrease:hover {
+    background-image: url("/Assets/Icons/List-Sort-Type-Icon-Decrease-Hover.svg");
 }
 
 .list-sort-type {

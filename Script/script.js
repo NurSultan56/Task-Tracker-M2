@@ -3,7 +3,7 @@ const taskList = document.getElementById("task-list")
 
 taskForm.addEventListener('submit', (event) => {
     event.preventDefault()
-    
+
     const taskItem = document.createElement("li")
     taskItem.classList.add('list-element-container')
     taskList.appendChild(taskItem)
@@ -37,14 +37,27 @@ inputDeleteButton.addEventListener('click', () => {
 });
 
 
-// const sortButton = document.getElementById("sort-list")
-// let flag = true
+const sortButton = document.getElementById("sort-list")
 
-// if(flag===true){
+var taskArr = []
 
-// sortButton.addEventListener('click', () => {
-//     const taskArr = document.querySelectorAll("#task-input")
-//     console.log(taskArr.value)
-// })
+sortButton.addEventListener('click', () => {
+    let flag = true
+    if (flag === true) {
+        sortButton.className = 'list-sort-type-button-increase'
 
-// }
+        const taskInput = document.querySelectorAll("#task-input")
+        taskInput.forEach((item) => {
+            taskArr.push(item.value)
+        })
+        taskArr.sort((a, b) => a.localeCompare(b))
+        flag = false
+        console.log(taskArr)
+
+    } else {
+        sortButton.className = 'list-sort-type-button-decrease'
+        taskArr.sort((a, b) => b.localeCompare(a))
+        flag = true
+        console.log(taskArr)
+    }
+})
